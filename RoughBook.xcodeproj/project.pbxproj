@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5533233025EC01C800241BE1 /* PracticeFile_l.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533232F25EC01C800241BE1 /* PracticeFile_l.swift */; };
+		5533233425EF0ADF00241BE1 /* PracticeFile_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533233325EF0ADF00241BE1 /* PracticeFile_2.swift */; };
+		559A75BA25D9FD8300BBFA2F /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A75B925D9FD8300BBFA2F /* ImageViewCell.swift */; };
+		559A75BC25DB706C00BBFA2F /* PracticeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A75BB25DB706C00BBFA2F /* PracticeTest.swift */; };
+		559A75BE25DC645C00BBFA2F /* testVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A75BD25DC645C00BBFA2F /* testVCViewController.swift */; };
 		55BA4E8C25B5F587002F60E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4E8B25B5F587002F60E5 /* AppDelegate.swift */; };
 		55BA4E8E25B5F587002F60E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4E8D25B5F587002F60E5 /* SceneDelegate.swift */; };
 		55BA4E9025B5F587002F60E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4E8F25B5F587002F60E5 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5533232F25EC01C800241BE1 /* PracticeFile_l.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFile_l.swift; sourceTree = "<group>"; };
+		5533233325EF0ADF00241BE1 /* PracticeFile_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFile_2.swift; sourceTree = "<group>"; };
+		559A75B925D9FD8300BBFA2F /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		559A75BB25DB706C00BBFA2F /* PracticeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTest.swift; sourceTree = "<group>"; };
+		559A75BD25DC645C00BBFA2F /* testVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVCViewController.swift; sourceTree = "<group>"; };
 		55BA4E8825B5F587002F60E5 /* RoughBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoughBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BA4E8B25B5F587002F60E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BA4E8D25B5F587002F60E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +73,11 @@
 				55BA4E9425B5F58A002F60E5 /* Assets.xcassets */,
 				55BA4E9625B5F58A002F60E5 /* LaunchScreen.storyboard */,
 				55BA4E9925B5F58A002F60E5 /* Info.plist */,
+				559A75B925D9FD8300BBFA2F /* ImageViewCell.swift */,
+				559A75BB25DB706C00BBFA2F /* PracticeTest.swift */,
+				559A75BD25DC645C00BBFA2F /* testVCViewController.swift */,
+				5533232F25EC01C800241BE1 /* PracticeFile_l.swift */,
+				5533233325EF0ADF00241BE1 /* PracticeFile_2.swift */,
 			);
 			path = RoughBook;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5533233025EC01C800241BE1 /* PracticeFile_l.swift in Sources */,
 				55BA4E9025B5F587002F60E5 /* ViewController.swift in Sources */,
+				559A75BE25DC645C00BBFA2F /* testVCViewController.swift in Sources */,
+				5533233425EF0ADF00241BE1 /* PracticeFile_2.swift in Sources */,
+				559A75BA25D9FD8300BBFA2F /* ImageViewCell.swift in Sources */,
+				559A75BC25DB706C00BBFA2F /* PracticeTest.swift in Sources */,
 				55BA4E8C25B5F587002F60E5 /* AppDelegate.swift in Sources */,
 				55BA4E8E25B5F587002F60E5 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KU6KS6DQ83;
 				INFOPLIST_FILE = RoughBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KU6KS6DQ83;
 				INFOPLIST_FILE = RoughBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
