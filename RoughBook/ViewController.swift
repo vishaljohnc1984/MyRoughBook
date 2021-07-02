@@ -77,6 +77,7 @@ final class ViewController: UIViewController {
         let dict = Dictionary(uniqueKeysWithValues: pairs)
         print(dict["BP"])
         
+        
         self.onEdit(val: 1, onSuccess: { (result) in
             print(result)
         }) { (err) in
